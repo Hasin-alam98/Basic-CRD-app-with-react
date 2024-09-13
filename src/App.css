@@ -1,0 +1,84 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.header {
+  font-size: 2rem; /* Makes the text large */
+  font-weight: bold; /* Makes the text bold */
+  text-align: center; /* Centers the text */
+  color: #ffffff; /* Sets text color to white */
+  background-color: #4a90e2; /* Adds a blue background */
+  padding: 20px; /* Adds space around the text */
+  border-radius: 10px; /* Rounds the corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  margin-bottom: 20px; /* Adds space below the header */
+}
+.form {
+  max-width: 600px; /* Limits the form width */
+  margin: 50px auto; /* Centers the form horizontally and adds space above */
+  padding: 20px; /* Adds space around the form */
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 10px; /* Rounds the form corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.form .MuiStack-root {
+  display: flex;
+  justify-content: space-between; /* Aligns items with spacing */
+  align-items: center; /* Vertically centers elements */
+}
+
+.form .MuiTextField-root {
+  flex: 1;
+}
+
+.form .MuiButton-root {
+  min-width: 100px; /* Sets a minimum width for the button */
+  margin-left: 10px; /* Adds a little space before the button */
+}
+
+.form input {
+  width: 100%; /* Ensures inputs take full width */
+}
+
+.form button {
+  cursor: pointer; /* Adds pointer cursor on hover */
+}
